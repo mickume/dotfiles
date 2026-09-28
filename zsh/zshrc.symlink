@@ -2,7 +2,7 @@
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/workspace/code
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -39,3 +39,9 @@ do
 done
 
 unset config_files
+
+# >>> open-knowledge cli >>>
+# ! Contents within this block are managed by OpenKnowledge. Do not edit.
+# ! Delete this whole block to opt out — OpenKnowledge will not re-add it.
+[ -f "$HOME/.ok/env.sh" ] && . "$HOME/.ok/env.sh"
+# <<< open-knowledge cli <<<
