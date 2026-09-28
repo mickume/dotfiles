@@ -10,6 +10,9 @@ export PATH="$HOME/.local/bin:$PATH"
 # go install installs here
 export PATH="$HOME/go/bin:$PATH"
 
+# opencode
+export PATH="$HOME/.opencode/bin:$PATH"
+
 # rust env
 . "$HOME/.cargo/env"
 
